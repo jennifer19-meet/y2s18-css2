@@ -16,3 +16,22 @@ p {
 a {
     color:red;
 }
+a:hover{
+    background-color: blue;
+}
+a:active{
+    color: green;
+}
+#important_paragraph:hover{
+	background-color: yellow;
+	font-size:40px;
+}
+.less_important_paragraphs:hover{
+	color: blue;
+}
+#Hidden_div{
+	display: none;
+}
+#span_cover:hover + #Hidden_div {
+    display: block;
+}
